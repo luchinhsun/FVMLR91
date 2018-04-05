@@ -82,4 +82,4 @@ void Update_V();
 void FDM();
 void Forward_Euler();
 void Send_V();
-void free();
+void Free();

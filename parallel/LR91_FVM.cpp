@@ -417,7 +417,7 @@ int main(int argC, char* argv[])
 	}
 
 	ftime(&end);
-	free();
+	Free();
 	diff = (1000.0*(end.time - start.time) + (end.millitm - start.millitm));
 	conduction_t = (right_peak - left_peak)*0.001; //condution time from left side to right side
 	fprintf(fevaluation, "%d ms\n%g\n%g\n%g\n", diff, Vmax, APD90, length_x / conduction_t);

@@ -141,7 +141,6 @@ void comp_ib(int i); // Calculates Background Current
 void comp_it(int i); // Calculates Total Current
 
 /* FVM functions */
-double usource(double uu, double x, double y, double t);
 int find_t(int array[], int size, int p);
 double weight_cal(double xa1, double ya1, double xa2, double ya2, double xb1, double yb1, double xb2, double yb2);
 double v_norm(double v[2]);

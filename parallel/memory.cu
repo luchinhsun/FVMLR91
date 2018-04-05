@@ -123,7 +123,7 @@ void Allocate(){
 	cudaMalloc((void**)&d_gradientU_C, nt*2*sizeof(double));	
 }
 
-void free(){
+void Free(){
 
 	free(h_t);free(h_V);free(h_m);free(h_h);
 	free(h_jj);free(h_d);free(h_f);free(h_X);free(h_cai);
